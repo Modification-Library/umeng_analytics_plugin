@@ -36,6 +36,8 @@ android {
 }
 
 dependencies {
-    api 'com.umeng.umsdk:analytics:9.3.8'
-    api 'com.umeng.umsdk:common:1.2.2'
+    // api 'com.umeng.umsdk:analytics:8.1.4'
+    // api 'com.umeng.umsdk:common:2.1.8'
+    implementation  'com.umeng.umsdk:common:9.3.8' // 版本号(必选)
+    implementation  'com.umeng.umsdk:asms:1.2.2' // asms包依赖(必选)
 }
